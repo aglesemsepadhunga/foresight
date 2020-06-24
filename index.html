@@ -1,110 +1,23 @@
+<!-- If you need to change font-weight of ques-ans, go to style css and just change the following code:-
+main h2{
+  font-weight: __;
+} -->
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Foresight</title>
      <link rel="icon" href="logo.png" type="image/png" sizes="20x20">
-    <style media="screen">
-      *{
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      header{
-        background-color: white;
-        padding: 10px 5%;
-        box-shadow: 0 1px 10px grey;
-        display:grid;
-	      grid-template-columns: 1fr 1fr;
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
-      header img{
-        position: relative;
-        top: 20px;
-        right: 10px;
-        height: 70px;
-        width: 70px;
-      }
-      header h1{
-        display: inline-block;
-        background-color: #130637;
-        color: white;
-        border-radius: 5px;
-        padding: 15px;
-        font-weight: 800;
-        font-size: 50px;
-        margin-left: 5%;
-      }
-      header p{
-        display: inline-block;
-        font-style: italic;
-        color: #d3d3d3;
-        font-size: 1.5em;
-        position: relative;
-        top: 70px;
-      }
-      #top{
-        font-size: 3em;
-        font-weight: 500;
-      }
-      h1{
-        font-weight: 500;
-      }
-      #swglink{
-        text-decoration: none;
-        color: #d3d3d3;
-      }
-      a{text-decoration: none; color: #d3d3d3;}
-      main{
-        padding: 50px 10%;
-        margin-top: 100px;
-      }
-      h3{
-        margin: 5px;
-      }
-      .ans{
-        color: grey;
-        margin-bottom: 50px;
-      }
-      #description{
-        color: grey;
-        line-height: 25px;
-        font-size: small;
-        text-align: right;
-      }
-      main h2{
-        margin: 20px auto;
-        font-weight: normal;
-        line-height: 1.5em;
-      }
-      #banner{
-        text-align: center;
-        margin-bottom: 30px;
-      }
-      footer{
-        background-color: rgb(30,30,30);
-        padding: 50px;
-        color: white;
-        display:grid;
-	      grid-template-columns: 1fr 1fr;
-        text-align: center;
-      }
-      ul{
-        list-style: none;
-      }
-      li{ margin-bottom: 20px;}
-      footer p{
-        color: grey;
-        margin-right: 50px;
-      }
-    </style>
+     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
       <div>
       <img src="logo.png">
+
+      <!-- The heading in the fixed header can be changed from here -->
       <h1>Foresight</h1>
     </div>
     <div>
@@ -112,13 +25,34 @@
     </div>
     </header>
     <main>
+
+
+      <!-- ###################################################################### -->
+      <!-- ========The heading statement of the webpage can be changed from here===== -->
       <h1 id="top">Want a DepC in Chemical Engineering?</h1><br>
       <h1>Get all your queries cleared, right here.</h1><br>
       <p id="description">Interviewee : Ajay Singh <br> May 29 . 8 min read</p>
       <hr><br>
+      <!-- ###################################################################### -->
+
+
+
+
+      <!-- ################################################# -->
+      <!-- =======Banner image can be changed from here===== -->
       <div id="banner">
       <img src="chemical.jpg" width="90%">
-    </div><hr>
+      </div><hr>
+      <!-- ################################################# -->
+
+
+
+
+
+      <!-- ################################################# -->
+      <!-- ################################################# -->
+      <!-- ===Following h2 tags will contain questions====== -->
+      <!--Following h2 tags, with "ans" class will contain answers-->
       <h2>Q. Can you describe the nature of the curriculum and schedule of classes? How difficult is it to maintain a good CGPA in the department while pursuing extra-curricular activities?</h2>
       <h2 class="ans">Ans: Chemical Engineering is one of the best departments for students wishing to venture into noncore, considering the light coursework and a relatively free schedule as compared to other departments. This is backed by the fact that there are students who have maintained GPAs above 9 and got placed in non-core companies. Consistency in attendance plays an important role and is helpful not only for good grades but also to avoid unnecessary clashes with professors from the department.</h2>
       <h2>Q. What are the common topics of research in Chemical Engineering? Also, what are the important courses with regard to core placements?</h2>
@@ -137,6 +71,11 @@ For noncore - GS, TCS, LEK, EXL, Credit Suisse, DB, Amazon among others have bee
       <h2 class="ans">Ans: A student should have a set list of preferences before filling up the form. Even browsing the curriculum listed out in ERP will at least help you strike out courses that spark no interest in you, so that you do not mess up at the end, keeping in mind that DepC choices are irreversible. If you still are unable to find the right department, you need not worry. You can excel wherever you go, as has been proved by many students over the years, by carefully planning your curriculum and exercising your breadth choices smartly.</h2>
       <h2>Q. As mentioned by you earlier, students from the Chemical Department are often seen getting involved in a lot of extra-curricular activities and PORs(Positions of Responsibility). What other departments have similar environments? Also, what do PORs have to offer us in the long run?</h2>
       <h2 class="ans">Ans: Some other courses which are a little less demanding curriculum-wise are Mining, Economics, Civil Engineering, and Metallurgy among others. Avoid loaded departments such as CSE, EE, ECE and you’ll be fine.</h2>
+      <!-- ====For more ques-ans, add more h2 tags in similar fashion===== -->
+      <!-- +++++++All tags which were subject to change are above this point+++++ -->
+      <!-- ====CODE BELOW THIS ONLY DEALS WITH FOOTER===== -->
+
+      
     </main>
     <footer>
       <div>
